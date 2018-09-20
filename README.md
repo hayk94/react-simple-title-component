@@ -15,12 +15,12 @@ npm install --save react-simple-title-component
 ```tsx
 import * as React from 'react'
 
-import MyComponent from 'react-simple-title-component'
+import Title from 'react-simple-title-component'
 
 class Example extends React.Component {
   render () {
     return (
-      <MyComponent />
+      <Title>Hello World</Title>
     )
   }
 }
