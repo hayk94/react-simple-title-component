@@ -6,7 +6,7 @@ export default class App extends Component {
   render () {
     return (
       <div>
-        <ExampleComponent text='Modern React component module' />
+        <ExampleComponent textStyle={{ borderColor: 'red' }}>Yo YO</ExampleComponent>
       </div>
     )
   }
